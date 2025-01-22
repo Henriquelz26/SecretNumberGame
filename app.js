@@ -44,7 +44,7 @@ function verifyKick() {
 }
 
 function randomNumber() {
-    let choicedNumber = parseInt(Math.random() * 4 + 1);
+    let choicedNumber = parseInt(Math.random() * 3 + 1);
     let qttElementsList = raffledNumberList.length;
     if (qttElementsList == maxQttNum) {
         raffledNumberList = [];
